@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "std/": "https://deno.land/std@0.202.0/",
+    "@nest": "https://deno.land/x/deno_nest@v3.0.1/mod.ts",
+    "@nest/hono": "https://deno.land/x/deno_nest@v3.0.1/modules/hono/mod.ts",
+    "class_validator": "https://deno.land/x/deno_class_validator@v1.0.0/mod.ts"
+  }
+}
