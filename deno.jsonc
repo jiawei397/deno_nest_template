@@ -1,5 +1,7 @@
 {
   "name": "deno_nest_template",
+  "version": "1.0.0",
+  "template_version": "0.0.1",
   "lock": false,
   "tasks": {
     "dev": "deno run --watch -A src/main.ts",
