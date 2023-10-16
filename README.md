@@ -6,7 +6,7 @@ A progressive Deno framework for building efficient and scalable server-side app
 
 ## Description
 
-[deno_nest](https://deno.land/x/oak_nest) framework TypeScript starter repository.
+[deno_nest](https://deno.land/x/deno_nest) framework TypeScript starter repository.
 
 ## Running the app
 
