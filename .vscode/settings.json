@@ -10,5 +10,8 @@
   "code-runner.executorMap": {
     "javascript": "deno run -A --unstable ",
     "typescript": "deno run -A --unstable "
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
   }
 }

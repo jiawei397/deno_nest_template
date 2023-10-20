@@ -16,7 +16,7 @@
         "--inspect-brk",
         "-A",
         "--config",
-        "deno.json",
+        "deno.jsonc",
         "--unstable"
       ],
       "attachSimplePort": 9229
