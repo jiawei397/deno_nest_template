@@ -10,5 +10,5 @@
   "code-runner.executorMap": {
     "javascript": "deno run -A --unstable ",
     "typescript": "deno run -A --unstable "
-  },
+  }
 }

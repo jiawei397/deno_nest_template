@@ -2,11 +2,13 @@
 
 [![deno version](https://img.shields.io/badge/deno-^1.37.0-blue?logo=deno)](https://github.com/denoland/deno)
 
-A progressive Deno framework for building efficient and scalable server-side applications, which Implemented the basic API of NestJS.
+A progressive Deno framework for building efficient and scalable server-side
+applications, which Implemented the basic API of NestJS.
 
 ## Description
 
-[deno_nest](https://deno.land/x/deno_nest) framework TypeScript starter repository.
+[deno_nest](https://deno.land/x/deno_nest) framework TypeScript starter
+repository.
 
 ## Running the app
 
