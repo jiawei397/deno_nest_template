@@ -1,16 +1,21 @@
 {
-  "deno.enable": true,
-  "deno.suggest.imports.hosts": {
-    "https://deno.land": true
-  },
-  "deno.config": "deno.jsonc",
-  "deno.importMap": "import_map.json",
-  "deno.lint": true,
-  "deno.suggest.autoImports": true,
   "code-runner.executorMap": {
     "javascript": "deno run -A --unstable ",
     "typescript": "deno run -A --unstable "
   },
+  "deno.enable": true,
+  "deno.lint": true,
+  "deno.importMap": "import_map.json",
+  "deno.config": "deno.jsonc",
+  "deno.suggest.autoImports": true,
+  "deno.testing.args": [
+    "--no-check",
+    "--allow-all",
+    "--import-map",
+    "import_map.json"
+  ],
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "denoland.vscode-deno",
   "[typescript]": {
     "editor.defaultFormatter": "denoland.vscode-deno"
   }
