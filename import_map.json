@@ -2,9 +2,9 @@
   "imports": {
     "@/": "./src/",
     "std/": "https://deno.land/std@0.202.0/",
-    "@nest": "https://deno.land/x/deno_nest@v3.14.1/mod.ts",
-    "@nest/hono": "https://deno.land/x/deno_nest@v3.14.1/modules/hono/mod.ts",
-    "hono/": "https://deno.land/x/hono@v4.1.0/",
+    "@nest": "https://deno.land/x/deno_nest@v3.15.1/mod.ts",
+    "@nest/hono": "https://deno.land/x/deno_nest@v3.15.1/modules/hono/mod.ts",
+    "hono/": "https://deno.land/x/hono@v4.3.11/",
     "class_validator": "https://deno.land/x/deno_class_validator@v1.0.0/mod.ts"
   }
 }
