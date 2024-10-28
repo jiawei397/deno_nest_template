@@ -5,9 +5,7 @@
   },
   "deno.enable": true,
   "deno.lint": true,
-  "deno.importMap": "import_map.json",
   "deno.config": "deno.jsonc",
-  "deno.suggest.autoImports": true,
   "deno.testing.args": [
     "--no-check",
     "--allow-all",

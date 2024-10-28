@@ -1,4 +1,4 @@
-import { Body, Controller, Get, Params, Post, Query } from "@nest";
+import { Body, Controller, Get, Params, Post, Query } from "@nest/core";
 import { AppService } from "./app.service.ts";
 import { SaveDto } from "./app.dto.ts";
 

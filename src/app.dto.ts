@@ -1,4 +1,4 @@
-import { Max, Min, MinLength } from "class_validator";
+import { Max, Min, MinLength } from "class-validator";
 
 export class SaveDto {
   @Max(2)

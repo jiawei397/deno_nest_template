@@ -1,17 +1,18 @@
 {
-  "name": "deno_nest_template",
-  "version": "1.0.0",
-  "template_version": "0.0.1",
+  "template_version": "1.0.0",
   "lock": false,
   "tasks": {
     "dev": "deno run --watch -A src/main.ts",
     "start": "deno run -A src/main.ts"
   },
   "compilerOptions": {
-    "removeComments": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "strictPropertyInitialization": false
   },
-  "importMap": "import_map.json"
+  "imports": {
+    "@nest/core": "jsr:@nest/core@^0.0.1",
+    "@nest/hono": "jsr:@nest/hono@^0.0.1",
+    "class-validator": "npm:class-validator@^0.14"
+  }
 }
